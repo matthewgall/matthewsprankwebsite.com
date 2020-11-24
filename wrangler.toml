@@ -1,0 +1,12 @@
+name = "matthewsprankwebsite-dev"
+type = "webpack"
+account_id = "b0d7b9f87b57470ef508f1a511093cae"
+route = "dev.matthewsprankwebsite.com/*"
+zone_id = "0cb3d5432dcdc5601e0d797777a86a4d"
+
+[env.prod]
+name = "matthewsprankwebsite-prod"
+route = "matthewsprankwebsite.com/*"
+
+[site]
+bucket = "./public"
